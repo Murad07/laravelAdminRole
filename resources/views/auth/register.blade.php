@@ -45,6 +45,17 @@
                                 name="password_confirmation" required />
             </div>
 
+            <!-- Roles -->
+            <div class="mt-4">
+                <x-label for="role_id" :value="__('Register As')" />
+
+                <select id="role_id" class="block mt-1 w-full" name="role_id" required>
+                    <option value="pageadmin">Page Admin</option>
+                    <option value="postadmin">Post Admin</option>
+                </select>
+            </div>
+
+            
             <div class="flex items-center justify-end mt-4">
                 <a class="underline text-sm text-gray-600 hover:text-gray-900" href="{{ route('login') }}">
                     {{ __('Already registered?') }}
