@@ -36,3 +36,12 @@
 -   before "event(new Registered($user));" this line add "$user->attachRole('superadministrator');" to create first time supper admin. Then make a registration by click Register button on view pannel.
 -   Then replace the above line by "$user->attachRole($request->role_id);" for dropdown role select on registration.
 -   Update resources\views\auth\register.blade.php for add roles dropdown option.
+
+## Show Dashboard according to login admin role.
+
+### Make a controller:
+
+-   php artisan make:controller DashboardController
+-   make two view blade page_admin.blade.php and post_admin.blade.php.
+-   Update DashboardController.php
+-   Update web.php
