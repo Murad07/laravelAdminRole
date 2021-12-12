@@ -29,6 +29,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::view('/practice', 'practiceWelcome');
+Route::view('/admin-role', 'roleAdminWlc');
+
 // Route::get('/dashboard', function () {
 //     return view('dashboard');
 // })->middleware(['auth'])->name('dashboard');
@@ -56,10 +59,6 @@ Route::post('/import', [StudentController::class, 'import'])->name('student.impo
 
 // ********** Practice project part ********
 // About page Route
-Route::get('/practice-welcome', function () {
-    return view('practiceWelcome');
-});
-
 Route::get('/about', function () {
     return view('about');
 });
@@ -138,6 +137,10 @@ Route::get('device/{key}', [DeviceController::class, 'index']);
 
 // Check multiple database connection
 Route::get('posts', [PostController::class, 'list']);
+
+// Blade Temple
+Route::view('template-one', 'index');
+Route::view('template-about', 'tempAbout');
 
 
 // ********** Practice project part ********

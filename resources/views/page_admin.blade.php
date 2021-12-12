@@ -1,5 +1,6 @@
 <x-app-layout>
     <x-slot name="header">
+    <a href="/"><h4>Home</h4></a>
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
             {{ __('Page Admin Dashboard') }}
         </h2>

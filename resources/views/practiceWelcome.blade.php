@@ -1,7 +1,23 @@
 <h1>Welcome page</h1>
 
+<a href="/"><h4>Home</h4></a>
 <a href="/about"><h4>About</h4></a>
 <a href="/contact"><h4>Contact</h4></a>
+<a href="/template-one"><h4>Blade Template One</h4></a>
+<a href="/datapass/youData"><h4>Data Pass example</h4></a>
+<a href="/users/22"><h4>User Controller example</h4></a>
+<a href="/vc/YorText"><h4>View from Controller example</h4></a>
+<a href="/login-practice"><h4>Login Practice</h4></a>
+<a href="/person"><h4>Person data from database</h4></a>
+<a href="/employee"><h4>Employee data from database</h4></a>
+<a href="/add"><h4>Add Member</h4></a>
+<a href="/list"><h4>Show Member List</h4></a>
+<a href="/aggregate"><h4>Sum of Id - Aggregate Example</h4></a>
+<a href="/show"><h4>Show Employ Join Table Example</h4></a>
+<a href="/check"><h4>One To Many</h4></a>
+<a href="/fluent-string"><h4>Fluent String</h4></a>
+<a href="/device/2"><h4>Route Model Binding example</h4></a>
+<a href="/posts"><h4>Multiple Database connection Example</h4></a>
 
 <h4>- Controller create command: php artisan make:controller user</h4>
 <h4>- Create component command: php artisan make:component Header</h4>

@@ -14,4 +14,5 @@
             </div>
         </div>
     </div>
+    <a href="/"><h4>Home</h4></a>
 </x-app-layout>

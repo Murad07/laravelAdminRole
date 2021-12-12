@@ -12,6 +12,7 @@
 </head>
 <body>
 
+<a href="/"><h4>Home</h4></a>
 <section style="padding-top:60px;">
     <div class="container">
         <div class="row">
